@@ -5,7 +5,7 @@ This repo contains python codes used for "Multi-task UNet: Jointly Boosting Sali
 - Folder _Data_ contain files used for data pre-processing (before training).
 - Folder _Module_ contain files used for network training and evaluation.
 
-Python 3.7 with the following packages are used:
+The following packages are used with Python 3.7:
 - PyTorch 1.8.0
 - torchvision 0.9.0
 - tensorboard 2.3.0
