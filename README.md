@@ -23,7 +23,7 @@ To run the code, simply execute data.py through “python data.py” in command 
 
 ## _Module_ folder
 
-To run the code, simply execute run.py through “python run.py” in command line or with other Python IDEs. After execution, a new folder _run_ will be created (if not already exists) in the execution directory. For each execution of run.py, a new folder with a random name will be created inside folder _run_ for the temporary storage of network parameters as well as recoding training details and evaluation results. The following lists the file details inside the folder:
+To run the code, simply execute RUN.py through “python RUN.py” in command line or with other Python IDEs. After execution, a new folder _run_ will be created (if not already exists) in the execution directory. For each execution of RUN.py, a new folder with a random name will be created inside folder _run_ for the temporary storage of network parameters as well as recoding training details and evaluation results. The following lists the file details inside the folder:
 - params_MTL_UNet_preset_.txt, records parameters and data related to network training.
 - params_NetLearn_.txt, records hyper-parameters for the network.
 - QuickHelper_summary.txt, records other data during execution.
@@ -32,4 +32,4 @@ To run the code, simply execute run.py through “python run.py” in command li
 - NET_XXXX/prediction_report.json, records classification and saliency prediction performance matrices.
 - NET_XXXX/NET.pt, stores the parameters for the best performing network during or after training.
 - NET_XXXX/training_process.png, visualizes the change of learning rate, losses, and validation metrics during the training process.
-During execution, run.py will also print training details and evaluation results to the console.
+During execution, RUN.py will also print training details and evaluation results to the console.
