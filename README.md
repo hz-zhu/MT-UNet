@@ -1,6 +1,6 @@
 # MT-UNet
 
-This repo contains python codes used for "Multi-task UNet: Jointly Boosting Saliency Prediction and Disease Classification on Chest X-ray Images", Hongzhi Zhu et al., submitted to Medical Imaging with Deep learning (MIDL) 2022.
+This repo contains python codes used for **"Multi-task UNet: Jointly Boosting Saliency Prediction and Disease Classification on Chest X-ray Images"**, Hongzhi Zhu et al., submitted to Medical Imaging with Deep learning (MIDL) 2022.
 
 - Folder _Data_ contain files used for data pre-processing (before training).
 - Folder _Module_ contain files used for network training and evaluation.
